@@ -10,5 +10,10 @@
 
 ### Technologies
 
-    * React.js
+    * React.js        
     * Bootstrap
+
+### packages 
+    * npm install --save react-router-dom
+    * npm install --save react-bootstrap
+
