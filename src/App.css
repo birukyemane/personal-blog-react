@@ -1,4 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
+    background: whitesmoke;    
+}
+.appContainer {
     display:  flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    color:white;
+    background: url("http://dash.ga.co/assets/jeff-bg.png");
+    background-size: cover;
+  }
+
+.headerImg {
+    height: 150px;
+    width: 20%;
+    margin: 40px 0px 0px 0px;  
+    border: 7px solid white;
+    border-radius: 20px;
+}
+
+h1{
+    font-size:70px;
+}
+
+.whiteFont {
+    color: white;
+    font-size: 20px;
+}
+
+.blackBackground {
+    padding: 10px;  
+    background: rgba(0,0,0,0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+.posts {
+    width: 60%;
+}
+
+.postRow {
+    display:flex;
+    justify-content: space-around;
+}
+
+.postTitle{
+    font-size: 20px;
+    padding: 10px;
+    width: 70%;
+}
+
+.category{
+    font-size: 20px;    
+    width: 30%;
+    padding-left: 15%;
+}
+
+.addPostHolder{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    padding: 20px;
+    width: 95%;
+}
+
+.fromContainer{
+    width: 60%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px 0;
+    border: 0.3px solid grey;
+}
+
+.inputWrapper {
+    display: flex;
+    margin: 5px 0;
+}
+
+.inputLabel{
+    width: 10%;
+    font-size: 17px;
+    text-align: end;
+    margin: 5px 10px 5px 0;
+}
+
+.inputField{
+    width: 50%;
+    font-size: 17px;
+    padding: 5px;    
+}
+
+.button-wrapper{
+    margin: 5px 0;
+}
+
+.blueBackground {
+    background: rgba(0,0,150,0.8);
+    padding: 10px;
+}
+
+a.whiteFont:hover {
+    color: white; 
 }
