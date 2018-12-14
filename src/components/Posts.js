@@ -9,7 +9,7 @@ const Posts  = (props) => {
 
   return (
   <div className="posts">
-    <div className="addPostHolder">     
+    <div className="navWrapper">     
         <NavLink to='/posts/newpost' className="whiteFont blueBackground">Add post</NavLink>
     </div>    
     {displayPosts}

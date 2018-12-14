@@ -40,7 +40,7 @@ class AddPost extends Component {
 
   render() {
     return (
-        <div className="fromContainer">
+        <div className="formContainer">
             {this.renderRedirect()}
             <h3>New Post</h3>            
             <form  onSubmit={this.save}>
